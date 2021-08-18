@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  p
+  a(class={active: currentUrl === '/'} href='/secret/all') 查看所有秘密
